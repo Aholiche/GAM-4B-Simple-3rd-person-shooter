@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class EnemyCounter : Target
 {
-    //Tried to make an "objective" as part of the Midterm assignment requirement. Tried to inherit from the Targte.cs script to track the amount of enemies currently on the map.
+    //Tried to make an "objective" for the player. Tried to inherit from the Targte.cs script to track the amount of enemies currently on the map.
     //Would it be better to make Target inherit EnemyCounter so that if a GameObject is destroyed, the counter would be decreased by - 1? 
     GameObject[] target;
     public Text enemyCountText;
